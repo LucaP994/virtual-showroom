@@ -1,0 +1,116 @@
+<div class="loader">
+    <h2>Loading</h2>
+</div>
+<div class="viewer">
+    <div class="info-box info-hidden">
+        <h2>Porsche Carrera 911 Turbo 1975</h2>
+        <div class="info">
+            <div class="info-content">
+                <h3>Engine</h3>
+                <div class="content">
+                    <div>
+                        <p>Type: <span>Flat 6</span></p>
+                        <p>Induction: <span>Turbocharged</span></p>
+                        <p>Cooling: <span>Air/oil-cooled</span></p>
+                        <p>Valvetrain: <span>Single overhead camshaft</span></p>
+                        <p>Bore X Stroke: <span>3.82 in/97 mm x 2.93 in/74.4 mm</span></p>
+                    </div>
+                    <div>
+                        <p>Injection: <span>Port injection</span></p>
+                        <p>Displacement: <span>201.24 cu-in/3.299 cc</span></p>
+                        <p>HorsePower: <span>282 at 5500 rpm</span></p>
+                        <p>Torque: <span>289 lb-ft at 4000 rpm</span></p>
+                        <p>Max RPM: <span>7200</span></p>
+                        <p>Ratio: <span>7.0:1</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-content">
+                <h3>Trasmission</h3>
+                <p>Options: <span>4-speed manual</span></p>
+            </div>
+            <div class="info-content">
+                <h3>Chassis</h3>
+                <div class="content">
+                    <div>
+                        <p>Type: <span>Rear-engined, rear-wheel drive</span></p>
+                        <p>Curb Weight: <span>2,976 lbs</span></p>
+                        <p>Heigth: <span>51.57 in/1,310 mm</span></p>
+                        <p>Ground Clearance: <span>4.72 in/120 mm</span></p>
+                        <p>Length: <span>168.94 in/4,291 mm</span></p>
+                        <p>Widht: <span>69.88 in/1,775 mm</span></p>
+                        <p>Wheelbase: <span>89.45 in/2,272 mm</span></p>
+                    </div>
+                    <div>
+                        <p>Track Front: <span>56.38 in/1,432 mm</span></p>
+                        <p>Track Rear: <span>59.09 in/1,501 mm</span></p>
+                        <p>Drag Coefficient: <span>N/A</span></p>
+                        <p>Wheel Size Front: <span>16 x 8</span></p>
+                        <p>Wheel Size Rear: <span>16 x 9</span></p>
+                        <p>Tire Size Front: <span>225/50VR-16</span></p>
+                        <p>Tire Size Rear: <span>245/45VR-16</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-content">
+                <h3>Brakes</h3>
+                <div class="content">
+                    <div>
+                        <p>Caliper Front: <span>Fixed 4-piston</span></p>
+                        <p>Caliper Rear: <span>Fixed 4-piston</span></p>
+                        <p>Disk Type Front: <span>Ventilated and cross-drilled discs
+                            </span></p>
+                        <p>Disk Type Rear: <span>Ventilated and cross-drilled discs
+                            </span></p>
+                    </div>
+                    <div>
+                        <p>Disk Size Front: <span>11.97 in/304 mm x 1.26 in/32 mm</span></p>
+                        <p>Disk Size Rear: <span>12.17 in/309 mm x 1.10 in/28 mm</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-content">
+                <h3>Performance</h3>
+                <div class="content">
+                    <div><p>0 to 60 mph: <span>5.7 seconds (CA: 8.6 seconds)</span></p></div>
+                    <div><p>Top Speed: <span>157 mph</span></p></div>
+                    
+                    
+                </div>
+            </div>
+            <div class="info-content">
+                <h3>Fuel</h3>
+                <div class="content">
+                    <div>
+                        <p>MPG City: <span>15</span></p>
+                        <p>MPG Highway: <span>20</span></p>
+                        <p>MPG Combined: <span>17</span></p>
+                    </div>
+                    <div>
+                        <p>Fuel Tank Capacity: <span>22.5 U.S. gallons</span></p>
+                        <p>Required Octane: <span>Premium unleaded (91+)</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="view-box view-hidden">
+        <h3>Views</h3>
+        <div class="btn-box">
+            <button type="button" class="btn btn-prev" (click)="prevPos()">Prev View</button>
+            <button type="button" class="btn btn-next" (click)="resetPos()">Reset</button>
+            <button type="button" class="btn btn-next" (click)="nextPos()">Next View</button>
+        </div>
+    </div>
+    <div class="color-box hidden">
+        <h3>Choose color</h3>
+        <button type="button" class="btn btn-color yellow"
+            (click)="changeColor('paintColor')">Yellow<span></span></button>
+        <button type="button" class="btn btn-color green" (click)="changeColor('green')">Green<span></span></button>
+        <button type="button" class="btn btn-color red" (click)="changeColor('red')">Red<span></span></button>
+        <button type="button" class="btn btn-color blue" (click)="changeColor('blue')">Blue<span></span></button>
+        <button type="button" class="btn btn-color lightBlue" (click)="changeColor('lightBlue')">Light
+            Blue<span></span></button>
+        <button type="button" class="btn btn-color orange" (click)="changeColor('orange')">Orange<span></span></button>
+    </div>
+</div>
